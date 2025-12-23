@@ -2,6 +2,8 @@
 
 A simple and powerful string masking library for formatting phone numbers, credit cards, dates, and more.
 
+> **Note:** This project is a rewrite of the [string-mask](https://github.com/the-darc/string-mask) dependency.
+
 ## Installation
 
 ```bash
