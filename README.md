@@ -1,4 +1,4 @@
-# Maskify
+# Masker JS
 
 A simple and powerful string masking library for formatting phone numbers, credit cards, dates, and more.
 
@@ -7,13 +7,13 @@ A simple and powerful string masking library for formatting phone numbers, credi
 ## Installation
 
 ```bash
-npm install maskify
+npm install masker-js
 ```
 
 ## Quick Start
 
 ```typescript
-import { StringMasker } from 'maskify';
+import { StringMasker } from 'masker-js';
 
 // Format a phone number
 const phoneMasker = new StringMasker('(000) 000-0000');
@@ -41,7 +41,7 @@ Use these characters in your mask patterns:
 Apply masks to format your strings:
 
 ```typescript
-import { StringMasker } from 'maskify';
+import { StringMasker } from 'masker-js';
 
 // Phone number
 const phoneMasker = new StringMasker('(000) 000-0000');
@@ -95,7 +95,7 @@ console.log(moneyMasker.apply('1234567')); // 012,345.67
 Create your own mask tokens:
 
 ```typescript
-import { StringMasker, createTokenRegistry } from 'maskify';
+import { StringMasker, createTokenRegistry } from 'masker-js';
 
 const customTokens = createTokenRegistry({
   H: {

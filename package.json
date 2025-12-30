@@ -1,5 +1,5 @@
 {
-  "name": "maskify",
+  "name": "masker-js",
   "description": "Modern String Masking Library - A type-safe TypeScript library for applying masks to strings with support for customizable tokens, reverse processing, and validation",
   "version": "1.0.0",
   "author": "Augusto Preis Tomasi <augustopreisthomasi@gmail.com>",
@@ -9,12 +9,12 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AugustoPreis/maskify.git"
+    "url": "https://github.com/AugustoPreis/masker-js.git"
   },
   "bugs": {
-    "url": "https://github.com/AugustoPreis/maskify/issues"
+    "url": "https://github.com/AugustoPreis/masker-js/issues"
   },
-  "homepage": "https://github.com/AugustoPreis/maskify#readme",
+  "homepage": "https://github.com/AugustoPreis/masker-js#readme",
   "scripts": {
     "build": "tsup",
     "build:watch": "tsup --watch",
