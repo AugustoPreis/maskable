@@ -7,13 +7,13 @@ A simple and powerful string masking library for formatting phone numbers, credi
 ## Installation
 
 ```bash
-npm install masker-js
+npm install maskable
 ```
 
 ## Quick Start
 
 ```typescript
-import { StringMasker } from 'masker-js';
+import { StringMasker } from 'maskable';
 
 // Format a phone number
 const phoneMasker = new StringMasker('(000) 000-0000');
@@ -41,7 +41,7 @@ Use these characters in your mask patterns:
 Apply masks to format your strings:
 
 ```typescript
-import { StringMasker } from 'masker-js';
+import { StringMasker } from 'maskable';
 
 // Phone number
 const phoneMasker = new StringMasker('(000) 000-0000');
@@ -95,7 +95,7 @@ console.log(moneyMasker.apply('1234567')); // 012,345.67
 Create your own mask tokens:
 
 ```typescript
-import { StringMasker, createTokenRegistry } from 'masker-js';
+import { StringMasker, createTokenRegistry } from 'maskable';
 
 const customTokens = createTokenRegistry({
   H: {
